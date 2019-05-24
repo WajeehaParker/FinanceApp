@@ -1,0 +1,43 @@
+body{
+  background-image:url("light1.png");
+  background-size: cover;
+}
+
+#orange-bar{
+  background-image: linear-gradient(#ec9841, #e75d72);
+  width: 200px;
+  height: 57px;
+}
+
+#navbar .nav{
+  background-color: #34444c;
+  padding-top: 100px;
+  position: fixed;
+  height: 100%;
+}
+
+#navbar .navbar-max{
+  width: 200px;
+}
+
+#navbar .navbar-min{
+  width: 50px;
+}
+
+#navbar a{
+  display: block;
+  color: gainsboro;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+#navbar a:hover, #navbar .icon:hover{
+  color: white;
+}
+
+#navbar .icon{
+  color: gainsboro;
+  margin-right: 15px;
+  font-size: 20px;
+}
